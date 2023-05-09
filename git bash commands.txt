@@ -1,0 +1,25 @@
+cd desktop->change directory to desktop
+ls -> contents of current directory
+git init -> initialised new git repo
+touch newFile -> create a file named newFile
+git status -> git status of the changes yet to be committed
+git add . -> staging the latest changes tracking
+git checkout -b newBranch -> making a new branch and checking out to the new branch
+git branch -> showing all the branch
+git commit -m"name of the commit"->commits the changes
+git log -> showing all the commits
+git checkout HEAD~1->going to detached state
+git checkout - => get back to previous commit or branch
+git log --oneline --all --decorate => showing all the commits in a given manner
+git checkout b19ca6a => navigating commits in the detached Head state
+
+
+remote: Permission to username/reponame.git denied to iftakhar2022.
+fatal: unable to access 'https://github.com/username/reponame.git/': The requested URL returned error: 403
+
+
+$ git config user.name "iftikhar"
+$ git config credential.username "ifti-hasan"
+
+
+
