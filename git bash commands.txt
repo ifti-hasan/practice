@@ -12,11 +12,12 @@ git checkout HEAD~1->going to detached state
 git checkout - => get back to previous commit or branch
 git log --oneline --all --decorate => showing all the commits in a given manner
 git checkout b19ca6a => navigating commits in the detached Head state
-
+git push origin main
+following error occured
 
 remote: Permission to username/reponame.git denied to iftakhar2022.
 fatal: unable to access 'https://github.com/username/reponame.git/': The requested URL returned error: 403
-
+solution:making sure the name and email is from current account
 
 $ git config user.name "iftikhar"
 $ git config credential.username "ifti-hasan"
